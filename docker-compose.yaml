@@ -1,0 +1,14 @@
+version: '3.6'
+services:
+  deluged:
+    build:
+      context: .
+    container_name: deluged
+    environment:
+      - AUTH_USERNAME=aaaa
+      - AUTH_PASSWORD=bbbb
+    volumes:
+      - ./config:/var/lib/deluged/config
+    ports:
+      - "58846:58846"
+
