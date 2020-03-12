@@ -26,4 +26,4 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 CMD ["/entrypoint.sh"]
 
 LABEL maintainer="imantas.lukenskas@gmail.com"
-LABEL deluge-version="2.0.1"
+LABEL deluge-version="2.0.3"
